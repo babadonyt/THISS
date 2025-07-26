@@ -2,7 +2,7 @@ services:
   - type: web
     name: php-app
     env: php
-    staticPublishPath: public
+    staticPublishPath: .
     buildCommand: ""
     startCommand: ""
     plan: free
