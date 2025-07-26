@@ -1,7 +1,9 @@
 services:
   - type: web
     name: php-app
-    env: docker
+    env: php
+    staticPublishPath: public
+    buildCommand: ""
+    startCommand: ""
     plan: free
-    dockerfilePath: ./Dockerfile
     autoDeploy: true
